@@ -1,7 +1,7 @@
 {
-  "name": "@kopi-ui/core",
+  "name": "@clay-ui/core",
   "version": "0.1.0",
-  "description": "Core React components for Kopi UI",
+  "description": "Core React components for Clay UI",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",

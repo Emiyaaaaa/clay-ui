@@ -1,4 +1,4 @@
-## Kopi UI
+## Clay UI
 
 一个基于 React + TypeScript 的拟物风格现代化组件库（Monorepo）。内置 Tailwind CSS v4 主题体系、Vite 构建、ESLint/Prettier 规范、Storybook 文档与 Vitest 测试，开箱即用。
 
@@ -53,7 +53,7 @@ pnpm build
 
 ### 构建核心包
 ```bash
-pnpm -F @kopi-ui/core build
+pnpm -F @clay-ui/core build
 ```
 
 ---
@@ -90,12 +90,12 @@ my-component-library/
 
 ### 安装（发布后）
 ```bash
-pnpm add @kopi-ui/core
+pnpm add @clay-ui/core
 ```
 
 ### 导入与使用
 ```tsx
-import { Button } from '@kopi-ui/core';
+import { Button } from '@clay-ui/core';
 
 export function App() {
   return <Button label="点击我" variant="primary" />;
@@ -117,7 +117,7 @@ export function App() {
 - 自定义设计令牌：阴影、圆角、主色、表面色等（拟物风）
 - 在应用中引入方式（如 Storybook `preview.ts` 已内置）：
 ```ts
-import '@kopi-ui/core/dist/style.css'; // 若发布后提供打包样式
+import '@clay-ui/core/dist/style.css'; // 若发布后提供打包样式
 // 或在文档/示例中直接：
 import '../packages/core/src/styles/tailwind.css';
 ```
